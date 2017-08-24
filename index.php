@@ -88,7 +88,7 @@
 				</div>
 
 				<div class="col-md-6 offset-2">
-					<div class="second">
+					<div class="hidden__element">
 						<h4>Dignissim <span class="accent_color">fermentum</span> senectus sodales.</h4>
 						<p>Non ultricies vitae massa tincidunt nec gravida imperdiet viverra vehicula vitae mus at vehicula. Fames taciti, metus pharetra cursus ligula nullam etiam ullamcorper sapien aliquam sapien. Imperdiet sapien eu euismod pede adipiscing. Auctor varius. Sit nisi montes fermentum.</p>
 
@@ -116,7 +116,7 @@
 				</div>
 				
 				<div class="col-md-6 offset-2">
-					<div class="cont_about_bot_rignt second">
+					<div class="cont_about_bot_rignt hidden__element">
 						<h4>Dignissim <span class="accent_color">fermentum</span> senectus sodales.</h4>
 						<p>Fames taciti, metus pharetra cursus ligula nullam etiam ullamcorper sapien aliquam sapien. Imperdiet sapien eu euismod pede adipiscing. Auctor varius. Sit nisi montes fermentum.</p>
 
@@ -147,17 +147,17 @@
 						<h3>Suspendisse potenti</h3>
 						<p><a href="/">Pellentesque iaculis, nunc eget varius pharetra, purus nunc dapibus neque, sit amet pretium sem urna facilisis purus.</a></p>
 					</div>
-					<div class="col-md-3 offset-1 second">
+					<div class="col-md-3 offset-1 hidden__element">
 						<h3>Aliquam</h3>
 						<p><a href="/">Curabitur lacinia massa interdum malesuada vulputate. Integer at augue ante.</a></p>
 					</div>
-					<div class="col-md-3 offset-1 second">
+					<div class="col-md-3 offset-1 hidden__element">
 						<h3>Duis fringilla</h3>
 						<p><a href="/"> Ut blandit ultrices sem, ut pellentesque magna efficitur id. </a></p>
 					</div>
 				</div>
 				
-				<div class="product__info__bottom second">
+				<div class="product__info__bottom hidden__element">
 					<h4>Sed sit amet ante purus?</h4>
 					<p>Suspendisse vitae interdum urna. Integer vestibulum, turpis eu pretium porttitor, lorem lacus venenatis libero, nec rutrum eros turpis a libero. Suspendisse nisl quam, aliquet id arcu sit amet, euismod vestibulum risus. Nullam ut pellentesque magna. Etiam nec eros leo. Maecenas ullamcorper congue augue in pretium. Integer aliquam est lorem, nec pharetra risus fermentum commodo. </p>
 				</div>
@@ -174,44 +174,44 @@
 				<hr class="hr_line">
 				<h4> Integer a sagittis felis, at feugiat lectus. Integer pretium fringilla iaculis.  </h4>
 
-			<div class="main__menu">
-				<div class="col-xs-8 col-xs-offset-2">
-					<a href="www.pdf"></a>
-					<div class="col-sm-2">
-						<img src="images/img6.jpg" alt="image">
-					</div>
-					<div class="col-sm-10">
-						<h4><a href="/">Main menu (PDF, 0,25MB)</a></h4>
-						<p>Proin pulvinar sit amet orci sit amet consectetur. Pellentesque porttitor ex a odio molestie, id tincidunt mauris venenatis.</p>
+				<div class="main__menu">
+					<div class="col-xs-8 col-xs-offset-2">
+						<a href="www.pdf"></a>
+						<div class="col-sm-2">
+							<img src="images/img6.jpg" alt="image">
+						</div>
+						<div class="col-sm-10">
+							<h4><a href="/">Main menu (PDF, 0,25MB)</a></h4>
+							<p>Proin pulvinar sit amet orci sit amet consectetur. Pellentesque porttitor ex a odio molestie, id tincidunt mauris venenatis.</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="drinks">
-				<div class="col-xs-8 col-xs-offset-2">
-					<a href="www.pdf"></a>
-					<div class="col-sm-2">
-						<img src="images/img3.jpg" alt="image">
-					</div>
-					<div class="col-sm-10">
-						<h4><a href="/">drinks (PDF, 0,26MB)</a></h4>
-						<p>Fusce hendrerit lorem nec elementum imperdiet. In vitae nibh lacus. Nunc lobortis ac elit sit amet volutpat. Proin et lectus vitae augue egestas placerat.</p>
-					</div>
-				</div>
-			</div>
-			
-			<div class="delivery">
-				<div class="col-xs-8 col-xs-offset-2">
-					<a href="www.pdf"></a>
-					<div class="col-sm-2">
-						<img src="images/img4.jpg" alt="image">
-					</div>
-					<div class="col-sm-10">
-						<h4><a href="/">delivery (PDF, 0,16MB)</a></h4>
-						<p>Aliquam vitae sodales sem. Praesent diam neque, malesuada a condimentum at, placerat vel enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				<div class="drinks">
+					<div class="col-xs-8 col-xs-offset-2">
+						<a href="www.pdf"></a>
+						<div class="col-sm-2">
+							<img src="images/img3.jpg" alt="image">
+						</div>
+						<div class="col-sm-10">
+							<h4><a href="/">drinks (PDF, 0,26MB)</a></h4>
+							<p>Fusce hendrerit lorem nec elementum imperdiet. In vitae nibh lacus. Nunc lobortis ac elit sit amet volutpat. Proin et lectus vitae augue egestas placerat.</p>
+						</div>
 					</div>
 				</div>
-			</div>
+				
+				<div class="delivery">
+					<div class="col-xs-8 col-xs-offset-2">
+						<a href="www.pdf"></a>
+						<div class="col-sm-2">
+							<img src="images/img4.jpg" alt="image">
+						</div>
+						<div class="col-sm-10">
+							<h4><a href="/">delivery (PDF, 0,16MB)</a></h4>
+							<p>Aliquam vitae sodales sem. Praesent diam neque, malesuada a condimentum at, placerat vel enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -259,13 +259,13 @@
 				<hr class="hr_line">
 				<h4>Integer aliquam est lorem, nec pharetra risus fermentum commodo.  </h4>
 			
-			<div class="col-md-5 col-md-offset-1">
+			<div class="col-md-5 col-md-offset-1 address__time">
 				<h3>Адрес</h3>
 				<p>Санкт-Петербург</p>
 				<p>Несуществующая площадь, дом 6</p>
 				<p>+7-(812)-888-88-88</p>
 			</div>
-			<div class="col-md-5 col-sm-7"> 
+			<div class="col-md-5 col-sm-7 address__time"> 
 				<h3>Время работы</h3>
 					<div class="row">
 						<div class="col-xs-5">
