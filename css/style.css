@@ -4,7 +4,6 @@
 * {box-sizing: border-box;}
 
 body {
-  /*margin: 0 15px 0 0;*/
   background: #f2f2f2;
 }
 
@@ -18,7 +17,7 @@ body {
 header {
   text-align: center; 
   width: 100%;
-  height: 100px;
+  max-height: 100px;
   margin-bottom: 50px;
   background-image: url('/images/fon1.jpg');
   background-size: 100%;
@@ -520,4 +519,186 @@ a.submenu-link{
   text-decoration: none;
   color: rgba(200, 0, 0, 0.8);
   text-shadow: 0px 1px 1px #000;
+}
+
+@media (max-width: 360px) {
+  /*-----------------------------
+      HEADER
+-----------------------------*/
+  .page__header {
+  display: block;
+  text-align: center; 
+  background-image: url('/images/fon1.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 85%; 
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  margin-block-end: 60%;
+}
+header a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .3s ease-in-out;
+  
+}
+.logo {
+  font-size: 1.5em;
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  margin-right: 0;
+}
+.accent_color {
+  color: rgb(200, 0, 0);
+}
+.accent_color:hover {
+  color: rgba(200, 0, 0, 0.8);
+}
+nav {
+  margin: 0;
+  padding: 0;
+  display: block;
+  padding-left: 0;
+  margin-right: 0;
+
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: block;
+  float: none;
+  position: relative;
+  width: 100%;
+  font-family: 'Cousine', monospace;
+}
+.topmenu > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  color:  #444;
+  padding: 10px 15%;
+  border-block-end: 1px solid #444;
+}
+.topmenu > li:hover > a, .submenu li:hover a {color: rgba(219, 219, 219, 1);}
+.submenu-link:after {
+  content: "";
+  font-family: "FontAwesome";
+  color: #222;
+}
+.submenu {
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  z-index: 5;
+  width: 100%;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+  margin: 0 0;
+  padding: 0 0;
+}
+a.submenu-link{
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.submenu li:last-child a {border-bottom: none;}
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+  /*-----------------------------
+      SECTION
+  container__about__top
+-----------------------------*/
+  .container__about__top {
+  margin: 0 0;
+}
+/*-----------------------------
+      SECTION
+  container__about__bottom
+-----------------------------*/
+
+ .container__about__bottom {
+   display: block;
+ padding: 0 0;
+  margin: 0 0;
+} 
+.container__about__bottom  h4 {
+  margin-block-end: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container__about__bottom  p {
+  display: block;
+  padding: ;
+  color: #fff;
+  font-size: 1em;
+  text-align: justify;
+  margin-block-start: 0;
+}
+.container__about__bottom input.submit{
+  background: linear-gradient(to top left, rgba(100, 100, 100, 0.1) 0%, rgba(200, 0, 0, 0.0) );
+  opacity: 0.9;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px 5px 20px;
+  box-shadow: 5px 5px 10px 0 #000;
+  padding: 2% 5%;
+  text-align: center;
+}
+.container__about__bottom input.submit:hover{
+    border: 2px solid rgba(200, 0, 0, 0.4);
+}
+.cont_about_bot_left_360 {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+
+  background-image: url('/images/img8.jpg');
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+.cont_about_bot_left input.submit {
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.cont_about_bot_rignt {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 100px;
+  background-image: url('/images/img212.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-y: 60%; 
+  overflow: hidden;
+}
+.cont_about_bot_rignt input.submit {
+    margin-top: 0px;
+    margin-left: 65%;
+}
+
 }

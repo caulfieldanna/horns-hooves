@@ -5,23 +5,33 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title><?php echo $config['title']; ?></title>
-
+	
+	<!-- Bootstrap grid -->
 	<link rel="stylesheet" type="text/css" href="css/assets/bootstrap-grid-only/css/grid12.css">
-
+	
+	<!-- Bootstrap.min.CSS -->
 	<link rel="stylesheet" type="text/css" href="css/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
-<!--     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	<!--     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
 
-    <!-- My style.css -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- jQuery.min.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	
+	<!-- jQuery prefixfree -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+	<!-- My style.css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -67,19 +77,23 @@
 			<div class="container__about__top">
 				<h2>Lorem ipsum <span class="accent_color">dolor</span> sit amet.</h2>
 				<hr class="hr_line">
-				<h4 class="cont_about_h4">Massa enim vitae nonummy proin inceptos. </h4>
+				<h4>Massa enim vitae nonummy proin inceptos. </h4>
 				<div class="col-md-6 offset-2">
-					<h4>Molestie senectus <span class="accent_color">dictumst</span> pulvinar.</h4>
-					<p>Phasellus ut eget laoreet ipsum sit sagittis ullamcorper justo egestas posuere nulla, mattis facilisis iaculis curabitur facilisi inceptos. Erat cubilia faucibus Sociosqu natoque congue pede egestas ut posuere, nec potenti placerat natoque. Litora.</p>
+					<div class="first">
+						<h4>Molestie senectus <span class="accent_color">dictumst</span> pulvinar.</h4>
+						<p>Phasellus ut eget laoreet ipsum sit sagittis ullamcorper justo egestas posuere nulla, mattis facilisis iaculis curabitur facilisi inceptos. Erat cubilia faucibus Sociosqu natoque congue pede egestas ut posuere, nec potenti placerat natoque. Litora.</p>
 
-					<p>Justo sodales morbi etiam auctor morbi est gravida rhoncus sociosqu proin sodales torquent tempor lacinia convallis lorem duis habitant phasellus tempus, vulputate metus donec congue sociis nam odio, interdum facilisis habitant fusce. Pulvinar, massa, ad sodales facilisis lacinia, habitasse quam varius curae; consectetuer. Mi.</p>
+						<p>Justo sodales morbi etiam auctor morbi est gravida rhoncus sociosqu proin sodales torquent tempor lacinia convallis lorem duis habitant phasellus tempus, vulputate metus donec congue sociis nam odio, interdum facilisis habitant fusce. Pulvinar, massa, ad sodales facilisis lacinia, habitasse quam varius curae; consectetuer. Mi.</p>
+					</div>
 				</div>
 
 				<div class="col-md-6 offset-2">
-					<h4>Dignissim <span class="accent_color">fermentum</span> senectus sodales.</h4>
-					<p>Non ultricies vitae massa tincidunt nec gravida imperdiet viverra vehicula vitae mus at vehicula. Fames taciti, metus pharetra cursus ligula nullam etiam ullamcorper sapien aliquam sapien. Imperdiet sapien eu euismod pede adipiscing. Auctor varius. Sit nisi montes fermentum.</p>
+					<div class="second">
+						<h4>Dignissim <span class="accent_color">fermentum</span> senectus sodales.</h4>
+						<p>Non ultricies vitae massa tincidunt nec gravida imperdiet viverra vehicula vitae mus at vehicula. Fames taciti, metus pharetra cursus ligula nullam etiam ullamcorper sapien aliquam sapien. Imperdiet sapien eu euismod pede adipiscing. Auctor varius. Sit nisi montes fermentum.</p>
 
-					<p>Dis. Praesent hendrerit dignissim erat. Torquent aenean sodales malesuada ad a arcu. Mi cras, neque quis primis conubia nulla. Dictumst eget enim metus platea malesuada non tempus Tristique, laoreet a. Pretium turpis.</p>
+						<p>Dis. Praesent hendrerit dignissim erat. Torquent aenean sodales malesuada ad a arcu. Mi cras, neque quis primis conubia nulla. Dictumst eget enim metus platea malesuada non tempus Tristique, laoreet a. Pretium turpis.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -102,7 +116,7 @@
 				</div>
 				
 				<div class="col-md-6 offset-2">
-					<div class="cont_about_bot_rignt">
+					<div class="cont_about_bot_rignt second">
 						<h4>Dignissim <span class="accent_color">fermentum</span> senectus sodales.</h4>
 						<p>Fames taciti, metus pharetra cursus ligula nullam etiam ullamcorper sapien aliquam sapien. Imperdiet sapien eu euismod pede adipiscing. Auctor varius. Sit nisi montes fermentum.</p>
 
@@ -122,29 +136,29 @@
 			<div class="container__products">
 				<h2><span class="accent_color">Nunc eu</span> laoreet lacus. Praesent a justo metus. </h2>
 				<hr class="hr_line">
-				<h4 class="cont_about_h4">Fusce hendrerit lorem nec elementum imperdiet.</h4>
+				<h4>Fusce hendrerit lorem nec elementum imperdiet.</h4>
 
 				<div class="product__info__top">
 					<div class="col-md-3 offset-1">
 						<h3>Duis rutrum</h3>
-						<h4><a href="/">Morbi imperdiet nec erat eu porta. </a></h4>
+						<p><a href="/">Morbi imperdiet nec erat eu porta. </a></p>
 					</div>
 					<div class="col-md-3 offset-1">
 						<h3>Suspendisse potenti</h3>
-						<h4><a href="/">Pellentesque iaculis, nunc eget varius pharetra, purus nunc dapibus neque, sit amet pretium sem urna facilisis purus.</a></h4>
+						<p><a href="/">Pellentesque iaculis, nunc eget varius pharetra, purus nunc dapibus neque, sit amet pretium sem urna facilisis purus.</a></p>
 					</div>
-					<div class="col-md-3 offset-1">
+					<div class="col-md-3 offset-1 second">
 						<h3>Aliquam</h3>
-						<h4><a href="/">Curabitur lacinia massa interdum malesuada vulputate. Integer at augue ante.</a></h4>
+						<p><a href="/">Curabitur lacinia massa interdum malesuada vulputate. Integer at augue ante.</a></p>
 					</div>
-					<div class="col-md-3 offset-1">
+					<div class="col-md-3 offset-1 second">
 						<h3>Duis fringilla</h3>
-						<h4><a href="/"> Ut blandit ultrices sem, ut pellentesque magna efficitur id. </a></h4>
+						<p><a href="/"> Ut blandit ultrices sem, ut pellentesque magna efficitur id. </a></p>
 					</div>
 				</div>
 				
-				<div class="product__info__bottom">
-					<h4 class="cont_about_h4">Sed sit amet ante purus?</h4>
+				<div class="product__info__bottom second">
+					<h4>Sed sit amet ante purus?</h4>
 					<p>Suspendisse vitae interdum urna. Integer vestibulum, turpis eu pretium porttitor, lorem lacus venenatis libero, nec rutrum eros turpis a libero. Suspendisse nisl quam, aliquet id arcu sit amet, euismod vestibulum risus. Nullam ut pellentesque magna. Etiam nec eros leo. Maecenas ullamcorper congue augue in pretium. Integer aliquam est lorem, nec pharetra risus fermentum commodo. </p>
 				</div>
 			</div>
@@ -158,7 +172,7 @@
 			<div class="container__menu">
 				<h2><span class="accent_color">Pellentesque</span> porttitor ex a odio molestie, id tincidunt <span class="accent_color">mauris</span> venenatis. </h2>
 				<hr class="hr_line">
-				<h4 class="cont_about_h4"> Integer a sagittis felis, at feugiat lectus. Integer pretium fringilla iaculis.  </h4>
+				<h4> Integer a sagittis felis, at feugiat lectus. Integer pretium fringilla iaculis.  </h4>
 
 			<div class="main__menu">
 				<div class="col-xs-8 col-xs-offset-2">
@@ -208,7 +222,7 @@
 		<div class="gallery">
 			<h2>Donec <span class="accent_color">eget pellentesque</span> quam.</h2>
 			<hr class="hr_line">
-			<h4 class="cont_about_h4">Vestibulum a consectetur mauris.</h4>			
+			<h4>Vestibulum a consectetur mauris.</h4>			
 			
 			<div class="row">
 				<div class="col-md-3 offset-1">
@@ -243,7 +257,7 @@
 			<div class="container__address">
 				<h2>Nullam ut <span class="accent_color">pellentesque</span> magna</h2>
 				<hr class="hr_line">
-				<h4 class="cont_about_h4">Integer aliquam est lorem, nec pharetra risus fermentum commodo.  </h4>
+				<h4>Integer aliquam est lorem, nec pharetra risus fermentum commodo.  </h4>
 			
 			<div class="col-md-5 col-md-offset-1">
 				<h3>Адрес</h3>
