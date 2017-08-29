@@ -9,6 +9,8 @@
 
 	<title><?php echo $config['title']; ?></title>
 	
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 	<!-- Bootstrap grid -->
 	<link rel="stylesheet" type="text/css" href="css/assets/bootstrap-grid-only/css/grid12.css">
 	
