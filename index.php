@@ -31,10 +31,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 	<!-- My style.css -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 <body>
-
+	<div id="page_preloader" class="preloader">
+		<div class="loader">
+			
+		</div>
+	</div>
 	<!-- =========== HEADER ============= -->
 
 <header class="page__header" id="header">
@@ -326,5 +331,7 @@
 			<p><a href="https://github.com/caulfieldanna">Caulfield Anna 2017</a></p>
 		</div>
 	</section>
+
+	<script src="/preloader.js"></script>
 </body>
 </html>
